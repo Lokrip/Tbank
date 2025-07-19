@@ -26,7 +26,7 @@ public class PaymentTransactionCommadListener {
             throw new IllegalArgumentException("Unsupported payment transaction command, record: " + record);
         }
 
-        handler.process();
+        // handler.process();
     }
 
     private PaymentTransactionCommand getPaymentTransactionCommand(ConsumerRecord<String, String> record) {

@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreatePaymentTransactionRequest {
+public class  CreatePaymentTransactionRequest {
     @NotNull
     private Long sourceBankAccountId;
     private Long destinationBankAccountId;
